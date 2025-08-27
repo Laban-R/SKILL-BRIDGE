@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import { Briefcase } from "lucide-react";
+import { BriefcaseBusiness  } from "lucide-react";
 
 export default function Header() {
   return (
     <header className="flex justify-between items-center border-b m-10">
       {/* Logo with briefcase */}
-      <div className="flex items-center gap-2 text-xl font-bold">
-        <Briefcase className="w-6 h-6 text-blue-600" />
+      <div className="flex items-center gap-2 text-3xl font-bold">
+        <BriefcaseBusiness  className="w-6 h-6 text-blue-600" />
         <span>Skill Bridge</span>
       </div>
 
